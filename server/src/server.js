@@ -13,7 +13,7 @@ const todoRoutes = require('./routes/todoRoutes.js');
 app.use('/api/v1/', todoRoutes);
 
 app.listen(PORT, () => {
-  console.log(`Example app listening on port ${PORT}`);
+  console.log(`Example app listening at port ${PORT}`);
 });
 
 mongoose
